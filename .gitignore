@@ -1,0 +1,11 @@
+# Arquivos compilados
+*.o
+*.exe
+
+# Executáveis gerados
+tp2
+tp3
+
+# Arquivos temporários
+*.log
+*.tmp

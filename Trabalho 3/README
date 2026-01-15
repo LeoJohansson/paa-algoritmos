@@ -1,0 +1,72 @@
+Parte 1: Busca Aproximada em Arquivos Não Comprimidos
+Navegue até o diretório parte1/:
+
+cd parte1/
+
+Compile o código usando o Makefile:
+
+make clean # Opcional: para limpar arquivos de compilação anteriores
+make
+
+Isso criará o executável tp3_parte1.
+
+Execute o programa com os seguintes argumentos:
+
+./tp3_parte1 <algoritmo> <arquivo_texto> <arquivo_padroes> <k>
+
+Onde:
+
+<algoritmo>: 1 para Programação Dinâmica ou 2 para Shift-And.
+
+<arquivo_texto>: Caminho para o arquivo de texto.
+
+<arquivo_padroes>: Caminho para o arquivo com os padrões, um por linha.
+
+<k>: O número máximo de erros aceitáveis.
+
+Exemplo:
+
+./tp3_parte1 1 texto_exemplo.txt padroes_exemplo.txt 2
+
+Saída:
+
+As informações de tempo e comparações serão exibidas no terminal.
+
+As ocorrências detalhadas (padrão e posições) serão gravadas no arquivo Arquivo Saida.
+
+Parte 2: Busca Exata em Arquivos Comprimidos
+Navegue até o diretório parte2/:
+
+cd parte2/
+
+Compile o código usando o Makefile:
+
+make clean # Opcional: para limpar arquivos de compilação anteriores
+make
+
+Isso criará o executável tp3_parte2.
+
+Execute o programa com os seguintes argumentos:
+
+./tp3_parte2 <arquivo_texto> <arquivo_padroes>
+
+Onde:
+
+<arquivo_texto>: Caminho para o arquivo de texto.
+
+<arquivo_padroes>: Caminho para o arquivo com os padrões, um por linha.
+
+Exemplo:
+
+./tp3_parte2 texto_grande.txt padroes_grandes.txt
+
+Saída:
+
+As informações de tempo e comparações para busca não comprimida e comprimida serão exibidas no terminal.
+
+As ocorrências detalhadas (padrão e posições) serão gravadas no arquivo Arquivo Saida.
+
+Observações
+Certifique-se de que os arquivos de texto e padrões existam nos caminhos especificados.
+
+O projeto foi desenvolvido e testado em ambiente Linux.
